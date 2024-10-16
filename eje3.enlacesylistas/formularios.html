@@ -16,12 +16,27 @@
         <label for="">Contraseña<input type="password"></label>
         <label for="">Edad<input type="number" min="1" max="100"/></label>
         <label for="">Marca si tiene coche propio<input type="checkbox" name="coche" id="coche"></label>
-        <label for=""><input type="radio" name="genero" id="" value="h">hombre 
-            <input type="radio" name="genero" id=""> 
-        
-        
-        </label>
+        <label for="">Genero<input type="radio" name="genero" id="" value="h">hombre 
+                    <input type="radio" name="genero" id="" value="m">mujer</label>
+        <label for="">Color favorito><input type="color" name="colorfavorito" id="" value="#FF0000"></label>
+        <h1>Interes encuesta</h1>
+        <label for=""> <input type="range" name="rango" min="1" max="10" step="3"></label>
+
+
+        <h1>NIVEL DE INGLES (A1, A2, B1, B2, C1, C2)</h1>
         <label for="">
+            <input type="range" name="nivel de ingles" id="" list="rango-ingles">
+            <datalist id="rango-ingles">
+                
+                <option value="1" label="A1"></option>
+                <option value="2" label="A2"></option>
+                <option value="3" label="B1"></option>
+                <option value="4" label="B2"></option>
+                <option value="5" label="C1"></option>
+                <option value="6" label="C2"></option>
+                
+            </datalist>
+        </label>
             <H1>Mes de nacimiento</H1>
             <select name="mesdenacimiento" id="" size="3">
                 <option value="1">ENERO</option>
