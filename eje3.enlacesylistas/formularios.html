@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="">
+        <label for="">Nombre <input type="text" minlength="4" maxlength="20" required/></label>
+        <label for="">Apellidos <input type="text"/></label>
+        <label for="">Telefono<input type="tel"/></label>
+        <label for="">Sitio web<input type="url"/></label>
+        <label for="">Correo<input type="email"></label>
+        <label for="">Contraseña<input type="password"></label>
+        <label for="">Edad<input type="number" min="1" max="100"/></label>
+        <label for="">Marca si tiene coche propio<input type="checkbox" name="coche" id="coche"></label>
+        <label for=""><input type="radio" name="genero" id="" value="h">hombre 
+            <input type="radio" name="genero" id=""> 
+        
+        
+        </label>
+        <label for="">
+            <H1>Mes de nacimiento</H1>
+            <select name="mesdenacimiento" id="" size="3">
+                <option value="1">ENERO</option>
+                <option value="2">FEBRERO</option>
+                <option value="3">MARZO</option>
+                <option value="4">ABRIL</option>
+                <option value="5">MAYO</option>
+            </select>
+        </label>
+        <label for="">
+            <h1>Pais de nacimiento</h1>
+                <select name="paisdenacimiento" id="">
+                    <optgroup label="EUROPA">
+                        <option value="esp">España</option>
+                        <option value="port">Portugal</option>
+                        <option value="ital">Italia</option>
+                    </optgroup>
+                </select>
+        </label>
+    </label>
+    <label for="">
+            <select name="paisdenacimiento" id="">
+                <optgroup label="AMERICA">
+                    <option value="usa">Estados UNidos</option>
+                    <option value="mex">Mexico</option>
+                    <option value="ecu">Ecuador</option>
+                </optgroup>
+            </select>
+    </label>
+
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+    </form>
+</body>
+</html>
