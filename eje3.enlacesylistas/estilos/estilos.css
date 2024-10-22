@@ -1,6 +1,13 @@
 p{
+    color: blue;
+    background-color: chartreuse;
 
 }
 th.sor{
     background-color: blueviolet;
+}
+h1#text2{
+    color: cornflowerblue;
+    background-color: green;
+
 }
