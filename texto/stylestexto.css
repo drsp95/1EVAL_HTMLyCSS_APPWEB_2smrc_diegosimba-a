@@ -1,0 +1,17 @@
+body{
+    text-align: justify;
+}
+h1.center{
+    text-align: center;
+    color: tomato;
+    text-indent: 50px;
+    letter-spacing: 10px;
+
+}
+p.parrafo1{
+    text-align: right;
+    color: blue;
+}
+p.parrafo2{
+    text-align: left;
+}
