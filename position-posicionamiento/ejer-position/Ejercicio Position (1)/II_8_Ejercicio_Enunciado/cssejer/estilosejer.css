@@ -1,11 +1,13 @@
 body{
-    background-color: darkgray;
+    background-color: lightgrey;
 
 }
 div.container{
-    width: 75%;
+    
     background-color: lightgreen;
-    height: 5s50px;
+    border-radius: 10px;
+    height: 550px;
+    width: 75%;
     position: relative;
     top: 30px;
     left: 10%;
@@ -74,20 +76,27 @@ figure img{
 }
 
 #li1{
-    rotate: 30deg;
+    rotate: -45deg;
     top: 100px;
     left: 300px;
     z-index: 4;
 }
 #li2{
-    rotate: 30deg;
-    top:; 
-    left: 
+    rotate: 45deg;
+    top: 100px; 
+    left: 300px;
+    z-index: 3; 
 }
 #li3{
-    rotate: ;
-
+    rotate: -15deg;
+    top: 100px;
+    left: 300px;
+    z-index: 2;
 }
 #li4{
+    rotate: 15deg;
+    top: 100px;
+    left: 300px;
+    z-index: 1;
 
 }
